@@ -12,6 +12,7 @@ Let's do
 4-Then you can check our full-website.<br>
 5-You can choose the product and click on it to add the item on cart.<br>
 6-After that you can check the Payment Option.<br>
+7-Just click on index.html to see the seller part.<br>
 
 
 ![image](https://user-images.githubusercontent.com/54260470/158051672-dff34e99-a45e-440e-9d96-cb14e40a3ae5.png)
