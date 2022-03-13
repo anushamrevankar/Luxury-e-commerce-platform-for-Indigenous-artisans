@@ -4,8 +4,8 @@ we also provided a wallet facility where the seller can view his transactions an
 we also created a loan application form where the seller can request for a loan and the application will sent to standard chartered and an agent can get back to the seller
 we also created a dashboard for the transactions and the selleing products
 
-Below are the some screenshots for the preview 
-#Follow the given steps to take a tour of our website. 
+Below are the some screenshots for the preview <br>
+#Follow the given steps to take a tour of our website. <br>
 1-Start with consumer folder.<br>
 2-Click on login-form.html(Open it in Google Chrome).<br>
 3-Put the random Id and password and click on login.<br>
