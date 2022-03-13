@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title> Home | Crafty-Mom</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel='stylesheet' href='css/stylecss.css'>
+    <!-- <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'> -->
+    <!-- <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+<body class="peach">
+
+    <!-- header -->
+
+     <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="" class="navbar-brand">
+                    <img src="img/craftymom.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id='mynavbar'>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="Standard Chartered Bank/index.html">Transaction</a></li>
+                    <li><a href="customer_review.html">Customer Review</a></li>
+                    <li><a href="dashboard.html">Help</a></li>
+                    <li><a href="Loan_standard_chartered/index.html">Loan</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+            <div class='banner'>
+                <div class="container">
+                    <h1>Crafty-Mom</h1>
+                    <p>A Platform for all rural women</p>
+                </div>
+            </div>
+            <div class="container box" id="addproduct">
+              <h1 class="text-center">Add Product</h1>
+              <div id="google_translate_element"></div>
+                <form>
+                    <div class="form-group">
+                        <label for="productName">Product Name</label>
+                        <input type="text" class="form-control" id="productName">
+                    </div>
+                    <!-- <div class="form-group">
+                        <label for="productPrice">Product Price</label>
+                        <input type="text" class="form-control" id="productPrice">
+                    </div> -->
+                    <div class="form-group">
+                        <label for="productPrice">Product Price</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">₹</div>
+                            <input type="number" class="form-control" id="productPrice" placeholder="Amount">
+                            <div class="input-group-addon">.00</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="productImage">Product Image</label>
+                        <input type="file" id="productImage">
+                    </div>
+                    <div class="form-group">
+                        <label for="productDetails">Product Details</label>
+                        <textarea class="form-control" id="productDetails" placeholder="Product Details" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+    <footer>
+        <img src="img/craftymom.png" width=100px alt="" >
+        <br>
+        <br>
+        Copyright Crafty-Mom Corp.
+    </footer>
+
+</body>
+</html>
