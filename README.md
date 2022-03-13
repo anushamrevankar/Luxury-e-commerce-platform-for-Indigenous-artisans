@@ -5,7 +5,7 @@ we also created a loan application form where the seller can request for a loan 
 we also created a dashboard for the transactions and the selleing products
 
 Below are the some screenshots for the preview <br>
-#Follow the given steps to take a tour of our website. <br>
+# Follow the given steps to take a tour of our website. <br>
 1-Start with consumer folder.<br>
 2-Click on login-form.html(Open it in Google Chrome).<br>
 3-Put the random Id and password and click on login.<br>
